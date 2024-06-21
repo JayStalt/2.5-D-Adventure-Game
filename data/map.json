@@ -1,0 +1,2628 @@
+{
+  "start_state": "0,0",
+
+  "states": {
+
+    "0,0": {
+      "bk_img": "imgs/background.jpeg",
+      "text": "Lost in Japan",
+      "text_x": 20,
+      "text_y": 40,
+      "other_imgs": [
+        {
+          "src": "imgs/background.jpeg",
+          "x_cord": 100,
+          "y_cord": 100,
+          "width": 500,
+          "height": 500
+        }
+      ],
+      "next_state": [
+        {
+          "state_name": "0,0-a",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,0-a": {
+      "bk_img": "imgs/0,0a.png",
+      "text": "Oh man, my first time going to Tokyo...Hope I dont get lost!",
+      "next_state": [
+        {
+          "state_name": "0,0-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,0-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,0-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,0-b": {
+      "bk_img": "imgs/0,0b.png",
+      "next_state": [
+        {
+          "state_name": "0,0-a",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,0-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,0-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,0-c": {
+      "bk_img": "imgs/0,0c.png",
+      "next_state": [
+        {
+          "state_name": "0,0-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,0-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,0-d",
+          "key_input": 39
+        }
+      ]
+    },
+    "0,0-d": {
+      "bk_img": "imgs/0,0d.png",
+      "next_state": [
+        {
+          "state_name": "0,1-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,0-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,0-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,0-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,1-a": {
+      "bk_img": "imgs/0,1a.png",
+      "next_state": [
+        {
+          "state_name": "0,2-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,1-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,1-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,1-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,1-b": {
+      "bk_img": "imgs/0,1b.png",
+      "next_state": [
+        {
+          "state_name": "0,1-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,1-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,1-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,1-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,1-c": {
+      "bk_img": "imgs/0,1c.png",
+      "next_state": [
+        {
+          "state_name": "0,1-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,1-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,1-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,0-b",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,1-d": {
+      "bk_img": "imgs/0,1d.png",
+      "next_state": [
+        {
+          "state_name": "0,1-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,1-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,1-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,1-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,2-a": {
+      "bk_img": "imgs/0,2a.png",
+      "next_state": [
+        {
+          "state_name": "0,3-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,2-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,2-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,2-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,2-b": {
+      "bk_img": "imgs/0,2b.png",
+      "next_state": [
+        {
+          "state_name": "0,2-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,2-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,2-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,2-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,2-c": {
+      "bk_img": "imgs/0,2c.png",
+      "next_state": [
+        {
+          "state_name": "0,2-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,2-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,2-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,1-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,2-d": {
+      "bk_img": "imgs/0,2d.png",
+      "next_state": [
+        {
+          "state_name": "0,2-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,2-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,2-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,2-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,3-a": {
+      "bk_img": "imgs/0,3a.png",
+      "next_state": [
+        {
+          "state_name": "0,4-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,3-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,3-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,3-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,3-b": {
+      "bk_img": "imgs/0,3b.png",
+      "next_state": [
+        {
+          "state_name": "0,3-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,3-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,3-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,3-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,3-c": {
+      "bk_img": "imgs/0,3c.png",
+      "next_state": [
+        {
+          "state_name": "0,3-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,3-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,3-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,2-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,3-d": {
+      "bk_img": "imgs/0,3d.png",
+      "next_state": [
+        {
+          "state_name": "0,3-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,3-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,3-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,3-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,4-a": {
+      "bk_img": "imgs/0,4a.png",
+      "next_state": [
+        {
+          "state_name": "0,5-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,4-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,4-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,4-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,4-b": {
+      "bk_img": "imgs/0,4b.png",
+      "next_state": [
+        {
+          "state_name": "0,4-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,4-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,4-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,4-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,4-c": {
+      "bk_img": "imgs/0,4c.png",
+      "next_state": [
+        {
+          "state_name": "0,4-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,4-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,4-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,3-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,4-d": {
+      "bk_img": "imgs/0,4d.png",
+      "next_state": [
+        {
+          "state_name": "0,4-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,4-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,4-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,4-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,5-a": {
+      "bk_img": "imgs/0,2a.png",
+      "next_state": [
+        {
+          "state_name": "0,6-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,5-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,5-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,5-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,5-b": {
+      "bk_img": "imgs/0,5b.png",
+      "next_state": [
+        {
+          "state_name": "0,5-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,5-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,5-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,5-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,5-c": {
+      "bk_img": "imgs/0,5c.png",
+      "next_state": [
+        {
+          "state_name": "0,5-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,5-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,5-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,4-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,5-d": {
+      "bk_img": "imgs/0,5d.png",
+      "next_state": [
+        {
+          "state_name": "0,5-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,5-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,5-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,5-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,6-a": {
+      "bk_img": "imgs/0,6a.png",
+      "next_state": [
+        {
+          "state_name": "0,7-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,6-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,6-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,6-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,6-b": {
+      "bk_img": "imgs/0,6b.png",
+      "next_state": [
+        {
+          "state_name": "0,6-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,6-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,6-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,6-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,6-c": {
+      "bk_img": "imgs/0,6c.png",
+      "next_state": [
+        {
+          "state_name": "0,6-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,6-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,6-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,5-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,6-d": {
+      "bk_img": "imgs/0,6d.png",
+      "text": "The Japanese Self Defense Force Base...Wonder if I'll ever visit some day...'",
+      "next_state": [
+        {
+          "state_name": "0,6-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,6-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,6-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,6-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,7-a": {
+      "bk_img": "imgs/0,7a.png",
+      "text":  "Oh I think the camps sign is over to the right, maybe I'll check it out...'",
+      "next_state": [
+        {
+          "state_name": "0,8-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,7-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,7-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,7-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,7-b": {
+      "bk_img": "imgs/0,7b.png",
+      "next_state": [
+        {
+          "state_name": "1,7-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,7-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,7-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,7-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,7-c": {
+      "bk_img": "imgs/0,7c.png",
+      "next_state": [
+        {
+          "state_name": "0,7-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,7-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,7-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,6-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,7-d": {
+      "bk_img": "imgs/0,7d.png",
+      "next_state": [
+        {
+          "state_name": "0,7-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,7-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,7-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,7-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "1,7-a": {
+      "bk_img": "imgs/1,7a.png",
+      "next_state": [
+        {
+          "state_name": "2,7-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "1,7-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "1,7-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "1,7-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "1,7-b": {
+      "bk_img": "imgs/1,7b.png",
+      "next_state": [
+        {
+          "state_name": "1,7-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "1,7-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "1,7-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "1,7-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "1,7-c": {
+      "bk_img": "imgs/1,7c.png",
+      "next_state": [
+        {
+          "state_name": "0,7-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "1,7-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "1,7-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "1,7-b",
+          "key_input": 37
+        }
+      ]
+    },
+    "1,7-d": {
+      "bk_img": "imgs/1,7d.png",
+      "next_state": [
+        {
+          "state_name": "1,7-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "1,7-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "1,7-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "1,7-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "2,7-a": {
+      "bk_img": "imgs/2,7a.png",
+      "next_state": [
+        {
+          "state_name": "2,7-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "2,7-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "2,7-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "2,7-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "2,7-b": {
+      "bk_img": "imgs/2,7b.png",
+      "next_state": [
+        {
+          "state_name": "camp_sign",
+          "key_input": 38
+        },
+        {
+          "state_name": "2,7-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "2,7-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "2,7-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "2,7-c": {
+      "bk_img": "imgs/2,7c.png",
+      "next_state": [
+        {
+          "state_name": "1,7-c",
+          "key_input": 38
+        },
+        {
+          "state_name": "2,7-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "2,7-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "2,7-b",
+          "key_input": 37
+        }
+      ]
+    },
+    "2,7-d": {
+      "bk_img": "imgs/2,7d.png",
+      "next_state": [
+        {
+          "state_name": "2,7-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "2,7-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "2,7-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "2,7-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "camp_sign": {
+      "bk_img": "imgs/campfuji.webp",
+      "next_state": [
+        {
+          "state_name": "2,7-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,8-a": {
+      "bk_img": "imgs/0,8a.png",
+      "next_state": [
+        {
+          "state_name": "0,9-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,8-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,8-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,8-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,8-b": {
+      "bk_img": "imgs/0,8b.png",
+      "next_state": [
+        {
+          "state_name": "0,8-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,8-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,8-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,6-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,8-c": {
+      "bk_img": "imgs/0,8c.png",
+      "next_state": [
+        {
+          "state_name": "0,8-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,8-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,8-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,8-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,8-d": {
+      "bk_img": "imgs/0,8d.png",
+      "next_state": [
+        {
+          "state_name": "0,8-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,8-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,8-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,8-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,9-a": {
+      "bk_img": "imgs/0,9a.png",
+      "next_state": [
+        {
+          "state_name": "0,10-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,9-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,9-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,9-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,9-b": {
+      "bk_img": "imgs/0,9b.png",
+      "next_state": [
+        {
+          "state_name": "0,9-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,9-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,9-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,9-b",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,9-c": {
+      "bk_img": "imgs/0,9c.png",
+      "next_state": [
+        {
+          "state_name": "0,9-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,9-a",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,9-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,9-c",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,9-d": {
+      "bk_img": "imgs/0,9d.png",
+      "next_state": [
+        {
+          "state_name": "0,9-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,9-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,9-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,10-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,10-a": {
+      "bk_img": "imgs/0,10a.png",
+      "next_state": [
+        {
+          "state_name": "0,11-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,10-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,10-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,10-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,10-b": {
+      "bk_img": "imgs/0,10b.png",
+      "next_state": [
+        {
+          "state_name": "0,10-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,10-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,10-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,9-b",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,10-c": {
+      "bk_img": "imgs/0,10c.png",
+      "next_state": [
+        {
+          "state_name": "0,10-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,10-a",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,10-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,10-c",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,10-d": {
+      "bk_img": "imgs/0,10d.png",
+      "next_state": [
+        {
+          "state_name": "0,10-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,10-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,10-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,11-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,11-a": {
+      "bk_img": "imgs/0,11a.png",
+      "next_state": [
+        {
+          "state_name": "0,12-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,11-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,11-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,11-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,11-b": {
+      "bk_img": "imgs/0,11b.png",
+      "next_state": [
+        {
+          "state_name": "0,11-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,11-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,11-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,11-b",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,11-c": {
+      "bk_img": "imgs/0,11c.png",
+      "next_state": [
+        {
+          "state_name": "0,11-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,11-a",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,11-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,11-c",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,11-d": {
+      "bk_img": "imgs/0,11d.png",
+      "next_state": [
+        {
+          "state_name": "0,11-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,11-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,11-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,12-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "0,12-a": {
+      "bk_img": "imgs/0,12a.png",
+      "next_state": [
+        {
+          "state_name": "0,13-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,12-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,12-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,12-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,12-b": {
+      "bk_img": "imgs/0,12b.png",
+      "next_state": [
+        {
+          "state_name": "0,12-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,12-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,12-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,12-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,12-c": {
+      "bk_img": "imgs/0,12c.png",
+      "next_state": [
+        {
+          "state_name": "0,12-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,12-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,12-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,11-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,12-d": {
+      "bk_img": "imgs/0,12d.png",
+      "next_state": [
+        {
+          "state_name": "0,12-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,12-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,12-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,12-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,13-a": {
+      "bk_img": "imgs/0,13a.png",
+      "next_state": [
+        {
+          "state_name": "0,14-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,13-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,13-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,13-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,13-b": {
+      "bk_img": "imgs/0,13b.png",
+      "next_state": [
+        {
+          "state_name": "0,13-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,13-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,13-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,13-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,13-c": {
+      "bk_img": "imgs/0,13c.png",
+      "next_state": [
+        {
+          "state_name": "0,13-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,13-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,13-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,13-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,13-d": {
+      "bk_img": "imgs/0,13d.png",
+      "next_state": [
+        {
+          "state_name": "0,13-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,13-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,13-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,13-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,14-a": {
+      "bk_img": "imgs/0,14a.png",
+      "next_state": [
+        {
+          "state_name": "0,15-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,14-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,14-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,14-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,14-b": {
+      "bk_img": "imgs/0,14b.png",
+      "next_state": [
+        {
+          "state_name": "0,14-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,14-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,14-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,14-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,14-c": {
+      "bk_img": "imgs/0,14c.png",
+      "next_state": [
+        {
+          "state_name": "0,14-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,14-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,14-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,13-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,14-d": {
+      "bk_img": "imgs/0,14d.png",
+      "next_state": [
+        {
+          "state_name": "0,14-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,14-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,14-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,14-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,15-a": {
+      "bk_img": "imgs/0,15a.png",
+      "next_state": [
+        {
+          "state_name": "0,16-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,15-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,15-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,15-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,15-b": {
+      "bk_img": "imgs/0,15b.png",
+      "next_state": [
+        {
+          "state_name": "0,15-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,15-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,15-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,15-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,15-c": {
+      "bk_img": "imgs/0,15c.png",
+      "next_state": [
+        {
+          "state_name": "0,15-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,15-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,15-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,14-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,15-d": {
+      "bk_img": "imgs/0,15d.png",
+      "next_state": [
+        {
+          "state_name": "0,15-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,15-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,15-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,15-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,16-a": {
+      "bk_img": "imgs/0,17a.png",
+      "next_state": [
+        {
+          "state_name": "0,17-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,16-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,16-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,16-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,16-b": {
+      "bk_img": "imgs/0,16b.png",
+      "next_state": [
+        {
+          "state_name": "0,16-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,16-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,16-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,16-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,16-c": {
+      "bk_img": "imgs/0,16c.png",
+      "next_state": [
+        {
+          "state_name": "0,16-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,16-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,16-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,15-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,16-d": {
+      "bk_img": "imgs/0,16d.png",
+      "next_state": [
+        {
+          "state_name": "0,16-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,16-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,16-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,16-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,17-a": {
+      "bk_img": "imgs/0,17a.png",
+      "next_state": [
+        {
+          "state_name": "0,18-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,17-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,17-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,17-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,17-b": {
+      "bk_img": "imgs/0,17b.png",
+      "next_state": [
+        {
+          "state_name": "0,17-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,17-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,17-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,17-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,17-c": {
+      "bk_img": "imgs/0,17c.png",
+      "next_state": [
+        {
+          "state_name": "0,17-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,17-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,17-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,16-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,17-d": {
+      "bk_img": "imgs/0,17d.png",
+      "next_state": [
+        {
+          "state_name": "0,17-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,17-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,17-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,17-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,18-a": {
+      "bk_img": "imgs/0,18a.png",
+      "text":  "7/11 is up ahead, I've heard its really good here!'",
+      "next_state": [
+        {
+          "state_name": "0,19-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,18-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,18-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,18-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,18-b": {
+      "bk_img": "imgs/0,18b.png",
+      "next_state": [
+        {
+          "state_name": "0,18-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,18-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,18-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,18-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,18-c": {
+      "bk_img": "imgs/0,18c.png",
+      "next_state": [
+        {
+          "state_name": "0,18-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,18-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,18-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,17-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,18-d": {
+      "bk_img": "imgs/0,18d.png",
+      "next_state": [
+        {
+          "state_name": "0,18-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,18-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,18-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,18-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,19-a": {
+      "bk_img": "imgs/0,19a.png",
+      "next_state": [
+        {
+          "state_name": "0,20-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,19-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,19-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,19-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,19-b": {
+      "bk_img": "imgs/0,19b.png",
+      "next_state": [
+        {
+          "state_name": "0,19-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,19-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,19-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,19-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,19-c": {
+      "bk_img": "imgs/0,19c.png",
+      "next_state": [
+        {
+          "state_name": "0,19-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,19-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,19-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,18-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,19-d": {
+      "bk_img": "imgs/0,19d.png",
+      "next_state": [
+        {
+          "state_name": "0,19-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,19-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,19-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,19-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,20-a": {
+      "bk_img": "imgs/0,20a.png",
+      "next_state": [
+        {
+          "state_name": "0,21-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,20-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,20-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,20-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,20-b": {
+      "bk_img": "imgs/0,20b.png",
+      "next_state": [
+        {
+          "state_name": "0,20-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,20-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,20-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,20-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,20-c": {
+      "bk_img": "imgs/0,20c.png",
+      "next_state": [
+        {
+          "state_name": "0,20-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,20-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,20-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,19-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,20-d": {
+      "bk_img": "imgs/0,20d.png",
+      "next_state": [
+        {
+          "state_name": "0,20-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,20-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,20-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,20-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,21-a": {
+      "bk_img": "imgs/0,21a.png",
+      "next_state": [
+        {
+          "state_name": "0,22-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,21-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,21-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,21-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,21-b": {
+      "bk_img": "imgs/0,21b.png",
+      "next_state": [
+        {
+          "state_name": "0,21-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,21-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,21-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,21-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,21-c": {
+      "bk_img": "imgs/0,21c.png",
+      "text": "Mt Fuji looks crazy from here!",
+      "next_state": [
+        {
+          "state_name": "0,21-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,21-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,21-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,20-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,21-d": {
+      "bk_img": "imgs/0,21d.png",
+      "next_state": [
+        {
+          "state_name": "0,21-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,21-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,21-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,21-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,22-a": {
+      "bk_img": "imgs/0,22a.png",
+      "next_state": [
+        {
+          "state_name": "0,22-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,22-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,22-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,22-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,22-b": {
+      "bk_img": "imgs/0,22b.png",
+      "next_state": [
+        {
+          "state_name": "0,22-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,22-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,22-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,22-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,22-c": {
+      "bk_img": "imgs/0,22c.png",
+      "next_state": [
+        {
+          "state_name": "0,22-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,22-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,22-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,21-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,22-d": {
+      "bk_img": "imgs/0,22d.png",
+      "text": "I better get a snack real quick...",
+      "next_state": [
+        {
+          "state_name": "0,22-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,22-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "7/11",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,22-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "7/11": {
+      "bk_img": "imgs/7elevenstore.webp",
+      "next_state": [
+        {
+          "state_name": "go_in_store",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,22-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "go_in_store": {
+      "bk_img": "imgs/7elevenfood.webp",
+      "next_state": [
+        {
+          "state_name": "go_in_store",
+          "key_input": 38
+        },
+        {
+          "state_name": "7/11_exit",
+          "key_input": 40
+        }
+      ]
+    },
+    "7/11_exit": {
+      "bk_img": "imgs/7elevenstore.webp",
+      "next_state": [
+        {
+          "state_name": "go_in_store",
+          "key_input": 38
+        },
+        {
+          "state_name": "bus_stop",
+          "key_input": 40
+        }
+      ]
+    },
+    "bus_stop": {
+      "bk_img": "imgs/japbus.jpg",
+      "text":  "Oh shit! The bus is here already!",
+      "next_state": [
+        {
+          "state_name": "get_on_bus",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,22-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "get_on_bus": {
+      "bk_img": "imgs/onjapbus.jpg",
+      "text": "Glad I made it, that was a close one.",
+      "next_state": [
+        {
+          "state_name": "bus",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,23-a",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,23-a": {
+      "bk_img": "imgs/0,23a.png",
+      "text": "This must be the station, maybe I'll look around before I leave...'",
+      "next_state": [
+        {
+          "state_name": "0,23-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,23-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,23-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,23-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,23-b": {
+      "bk_img": "imgs/0,23b.png",
+      "next_state": [
+        {
+          "state_name": "0,23-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,23-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,23-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,23-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,23-c": {
+      "bk_img": "imgs/0,23c.png",
+      "next_state": [
+        {
+          "state_name": "0,23-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,23-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,23-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,23-c",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,23-d": {
+      "bk_img": "imgs/0,23d.png",
+      "next_state": [
+        {
+          "state_name": "0,23-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,23-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "-1,23-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,23-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "-1,23-a": {
+      "bk_img": "imgs/-1,23a.png",
+      "next_state": [
+        {
+          "state_name": "-2,23-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "-1,23-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "-1,23-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "-1,23-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "-1,23-b": {
+      "bk_img": "imgs/-1,23b.png",
+      "next_state": [
+        {
+          "state_name": "-1,23-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "-1,23-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "-1,23-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "-1,23-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "-1,23-c": {
+      "bk_img": "imgs/-1,23c.png",
+      "next_state": [
+        {
+          "state_name": "0,23-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,23-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,23-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,23-b",
+          "key_input": 38
+        }
+      ]
+    },
+    "-1,23-d": {
+      "bk_img": "imgs/-1,23d.png",
+      "next_state": [
+        {
+          "state_name": "-1,23-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "-1,23-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "-1,23-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "-1,23-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "-2,23-a": {
+      "bk_img": "imgs/-2,23a.png",
+      "next_state": [
+        {
+          "state_name": "-2,23-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "-2,23-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "-2,23-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "-2,23-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "-2,23-b": {
+      "bk_img": "imgs/-2,23b.png",
+      "text": "I could go for some ramen...I've heard this shop is really good!'",
+      "next_state": [
+        {
+          "state_name": "ramen_shop",
+          "key_input": 38
+        },
+        {
+          "state_name": "-2,23-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "-2,23-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "-2,23-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "-2,23-c": {
+      "bk_img": "imgs/-2,23c.png",
+      "next_state": [
+        {
+          "state_name": "-1,23-c",
+          "key_input": 38
+        },
+        {
+          "state_name": "-1,23-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "-1,23-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,23-b",
+          "key_input": 37
+        }
+      ]
+    },
+    "-2,23-d": {
+      "bk_img": "imgs/-2,23d.png",
+      "next_state": [
+        {
+          "state_name": "-2,23-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "-2,23-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "-2,23-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "-1,23-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "ramen_shop": {
+      "bk_img": "imgs/ramenshop.png",
+      "next_state": [
+        {
+          "state_name": "vending",
+          "key_input": 38
+        },
+        {
+          "state_name": "-2,23-d",
+          "key_input": 40
+        }
+      ]
+    },
+    "vending": {
+      "bk_img": "imgs/vending.png",
+      "text": "What the hell...How does this even work...Ill just pick a random one...",
+      "next_state": [
+        {
+          "state_name": "sit_down",
+          "key_input": 38
+        },
+        {
+          "state_name": "ramen_shop",
+          "key_input": 40
+        }
+      ]
+    },
+    "sit_down": {
+      "bk_img": "imgs/sitdown.png",
+      "next_state": [
+        {
+          "state_name": "ramen",
+          "key_input": 38
+        },
+        {
+          "state_name": "vending",
+          "key_input": 40
+        }
+      ]
+    },
+    "ramen": {
+      "bk_img": "imgs/tomatoramen.png",
+      "text": "Tomateo ramen?! This looks BUSSIN!!!",
+      "next_state": [
+        {
+          "state_name": "leave_shop",
+          "key_input": 38
+        }
+      ]
+    },
+    "leave_shop": {
+      "bk_img": "imgs/ramen_ent.png",
+      "text": "Wow...that was incredible....",
+      "next_state": [
+        {
+          "state_name": "gotemba_statoin",
+          "key_input": 38
+        }
+      ]
+    },
+    "gotemba_statoin": {
+      "bk_img": "imgs/gotemba_station.jpg",
+      "text": "I better get my bus ticket.",
+      "next_state": [
+        {
+          "state_name": "0,24-b",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,24-b": {
+      "bk_img": "imgs/0,24b.png",
+      "text": "Wow, so this is Tokyo?! It's so busy!'",
+      "next_state": [
+        {
+          "state_name": "0,24-b",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,24-c",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,24-d",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,24-a",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,24-a": {
+      "bk_img": "imgs/0,24a.png",
+      "next_state": [
+        {
+          "state_name": "0,24-a",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,24-b",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,24-c",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,24-d",
+          "key_input": 37
+        }
+      ]
+    },
+    "0,24-c": {
+      "bk_img": "imgs/0,24c.png",
+      "text": "I gotta hail a taxi to get to my AirBnB!",
+      "next_state": [
+        {
+          "state_name": "0,24-a",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,24-b",
+          "key_input": 37
+        },
+        {
+          "state_name": "0,24-d",
+          "key_input": 39
+        },
+        {
+          "state_name": "taxi",
+          "key_input": 38
+        }
+      ]
+    },
+    "0,24-d": {
+      "bk_img": "imgs/0,24d.png",
+      "next_state": [
+        {
+          "state_name": "0,24-a",
+          "key_input": 39
+        },
+        {
+          "state_name": "0,24-b",
+          "key_input": 40
+        },
+        {
+          "state_name": "0,24-d",
+          "key_input": 38
+        },
+        {
+          "state_name": "0,24-c",
+          "key_input": 37
+        }
+      ]
+    },
+    "taxi": {
+      "bk_img": "imgs/taxi.webp",
+      "text": "Oh shit, here's one now! '",
+      "next_state": [
+        {
+          "state_name": "tokyo",
+          "key_input": 38
+        }
+      ]
+    },
+    "tokyo": {
+      "bk_img": "imgs/titlescreen.avif",
+      "text": "Thank you for playing! This walk through was based on my real life experience of going to Tokyo for the first time! - Jamison ",
+      "next_state": [
+        {
+          "state_name": "tokyo",
+          "key_input": 38
+        }
+      ]
+    }
+  }
+}
